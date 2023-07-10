@@ -1,5 +1,5 @@
 const getRegister = (req, res)  =>{
-    res.render("register")
+    res.render("register", {title:"sign up"})
 }
 
 module.exports = getRegister

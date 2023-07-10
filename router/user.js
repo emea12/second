@@ -8,6 +8,6 @@ const { updateUser } = require("../controller/updateUser");
 
 const router = express.Router();
 
-router.route("/users/:userID").get(getUser).delete(removeUser).put(updateUser);
+router.route("/users/:userID").get(getUser).delete(removeUser).patch(updateUser);
 
 module.exports = router

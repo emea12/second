@@ -1,12 +1,11 @@
-const path = require("path");
-const fs = require("fs");
+const User = require("../models/user");
 
-const getUsers = (req, res) => {
-  let users = fs.readFileSync(path.resolve("db", "users.json"), {
-    encoding: "utf-8",
-  });
-  users = JSON.parse(users);
-  res.render("users", { title: "Users", users: users });
+
+const getUsers = async (req, res) => {
+  console.log(req.user);
+ const  user =  await User.find()
+
+  res.send(user);
 };
 
 module.exports = getUsers;

@@ -1,70 +1,31 @@
 [
   {
-    "name": "Ifeanyi",
+    "name": "ebuka",
+    "password": "$2a$10$3pyN/BAOJ5gXLqg2ZaPJ3eeZeX/5cjdwbxVe.KIVaY9kdRHlbjckW",
+    "id": "95a5c404-8b73-4b87-ba15-3472c466c073",
+    "age": "27",
+    "email": "ebuka@gmail.com"
+  },
+  {
+    "name": "Emeka",
+    "password": "$2a$10$UafeDoLGpxZUN4vSme.NROz3.7hWx8/eufRL50ExUDceJQBm.P0f.",
+    "id": "2eea3859-2014-4203-9582-89f01c6ff15f",
+    "age": "27",
+    "email": "emeka@gmail.com"
+  },
+  {
+    "name": "Emeka",
+    "password": "$2a$10$.d/mVLOAG3Mc26FyR1cdSeBsivawLiLf/VkrQOf2.wKEAe6AbPhdC",
+    "id": "fadf4bc2-1854-49d0-a580-082066efd3a1",
     "age": "20",
-    "gender": "male",
-    "email": "etubeemeka@gmail.com"
+    "email": "success11@gmail.com"
   },
+  
   {
-    "name": "david chima",
-    "age": "35",
-    "gender": "female",
-    "email": "face76260@gmail.com"
-  },
-  {
-    "name": "EEEEE",
-    "age": "22",
-    "gender": "male",
-    "email": "gift60466@gmail.com"
-  },
-  {
-    "name": "password",
-    "age": "25",
-    "gender": "male",
-    "email": "password@gmail.com"
-  },
-  {
-    "name": "success",
-    "age": "21",
-    "gender": "male",
+    "name": "Emeka",
+    "password": "$2a$10$oKdoGZPM0KIjw.TkMvpDpeXWezeAzEjEsofmNNqcdL1rueHohdaVi",
+    "id": "8edd4139-4ff8-487b-b0f4-1ee37f39fc30",
+    "age": "100",
     "email": "success@gmail.com"
-  },
-  {
-    "name": "problem",
-    "age": "29",
-    "gender": "male",
-    "email": "problem@gmail.com"
-  },
-  {
-    "name": "Ifeanyi",
-    "age": "100",
-    "gender": "female",
-    "email": "sukk@gmail.com"
-  },
-  {
-    "name": "Ifeanyi",
-    "age": "100",
-    "gender": "female",
-    "email": "sukk2@gmail.com"
-  },
-  {
-    "name": "Ifeanyi",
-    "age": "100",
-    "gender": "female",
-    "email": "sukk23@gmail.com"
-  },
-  {
-    "name": "Ifeanyi",
-    "age": "100",
-    "gender": "female",
-    "email": "sukk234@gmail.com",
-    "id": "6a67d11d-c7d4-4634-9d02-46967a434bd5"
-  },
-  {
-    "name": "Ifeanyi",
-    "age": "100",
-    "gender": "female",
-    "email": "sukk6@gmail.com",
-    "id": "671c94c0-8fe3-4ee8-a872-24302900d436"
   }
 ]

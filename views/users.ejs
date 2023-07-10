@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%=title%></title>
+    <%- include("/partials/head") %>
   </head>
   <body>
     <h1>Users</h1>
@@ -11,8 +9,14 @@
     <ul>
       <% users.map(user => { %>
       <li>
-        <%= user.name %><button type="button">Delete</button
-        ><button type="button">update</button>
+        <%= user.name %>
+        <button
+          onclick="DeletUser(this.dataset.id)"
+          data-id="<%= user.id %>"
+        
+          type="button" > delete
+        </button>
+        <button type="button">update</button>
       </li>
       <% }) %>
     </ul>
